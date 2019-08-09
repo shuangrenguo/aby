@@ -1,0 +1,25 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	list-style:none;
+}
+a{text-decoration:none;}
+.my_font_small{
+	font-size:12px;
+}
+.my_font_14{
+	font-size:14px;
+}
+.my_font_18{
+	font-size:18px;
+	font-weight:bold;
+	
+}
+.lf{float:left;}
+.rt{float:right;}
+.clear::after{
+	content:"";
+	display:block;
+	clear:both;
+}
