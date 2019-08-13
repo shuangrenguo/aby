@@ -6,8 +6,8 @@
 
 <style>
    .app-container{
-     padding-top:40px;
-     padding-bottom:50px;
+     padding-top:0px;
+     padding-bottom:0px;
      overflow-x:hidden;
    }
 
