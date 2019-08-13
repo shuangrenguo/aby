@@ -11,16 +11,14 @@
 </template>
 <script>
 export default {
-    handleChange(index) {
-    
-  }
+    data() {
+        return {
+            
+        }
+    },
 }
 </script>
 <style scoped>
-    .app-container{
-        padding:0;
-            overflow-x: hidden;
-    }
     .car{
         height:200px;
     }
