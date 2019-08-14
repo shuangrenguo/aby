@@ -6,11 +6,14 @@ import Carousel from "./components/index/Carousel.vue"
 import { Swipe, SwipeItem } from 'mint-ui';
 Vue.component(Swipe.name, Swipe);
 Vue.component(SwipeItem.name, SwipeItem);
+import Wish from "./components/tian/Wish.vue"
+
 
 Vue.use(Router)
 
 export default new Router({
-  routes: [
+  routes: [ 
+    {path:'/Wish',component:Wish},
     {path:'/',component:HelloContainer},
     {path:'/carousel',component:Carousel},
   ]
