@@ -1,10 +1,12 @@
 <template>
     <div>
        <carousel></carousel>
+       <title></title>
     </div>
 </template>
 <script>
 import Carousel from "./Carousel"
+import Title from "./Title"
 export default {
     data() {
         return {
@@ -12,10 +14,11 @@ export default {
         }
     },
     components: {
-       Carousel 
+       Carousel,
+       Title,
     },
 }
 </script>
-<style lang="">
+<style scoped>
     
 </style>
