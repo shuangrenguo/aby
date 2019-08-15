@@ -7,6 +7,7 @@ import { Swipe, SwipeItem } from 'mint-ui';
 Vue.component(Swipe.name, Swipe);
 Vue.component(SwipeItem.name, SwipeItem);
 import Wish from "./components/tian/Wish.vue"
+import Xqy from "./components/zhang/Xqy.vue"
 
 
 Vue.use(Router)
@@ -16,5 +17,6 @@ export default new Router({
     {path:'/Wish',component:Wish},
     {path:'/',component:HelloContainer},
     {path:'/carousel',component:Carousel},
+    {path:'/xqy',component:Xqy}
   ]
 })
