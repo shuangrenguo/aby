@@ -7,7 +7,7 @@ import router from './router'
 import MintUI from "mint-ui"
 //2：引入CSS
 import "mint-ui/lib/style.css"
-import "mint-ui/lib/mom.css"
+// import "mint-ui/lib/mom.css"
 //3：将mint ui注册到vue实例中
 Vue.use(MintUI)
 
