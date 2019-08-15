@@ -53,9 +53,6 @@
           <h3>摘要</h3>
           <p>这套独立单间是两室一厅中的次卧,可住1-2人,有窗户。洗手间、厨房、客厅与主卧客人...</p>
         </div>
-        <div>
-          <a href="ckxq" font-size:17px; font-weight:600;line-height:22px;color:#fff></a>
-        </div>
         <hr class="c4">
         <div class="c5">
           <h3>评价</h3>
