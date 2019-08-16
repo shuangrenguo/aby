@@ -18,10 +18,6 @@ export default new Router({
     {path:'/Wish',component:Wish},
     {path:'/',component:HelloContainer},
     {path:'/index',component:index},
-<<<<<<< HEAD
-    {path:'/title',component:title},
     {path:'/xqy',component:Xqy}
-=======
->>>>>>> tem
   ]
 })
