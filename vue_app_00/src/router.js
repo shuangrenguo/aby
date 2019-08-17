@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloContainer from "./components/HelloWorld.vue"
 //引入组件
 import index from "./components/index/index.vue"
+import allHouse from "./components/index/allHouse.vue"
 
 import { Swipe, SwipeItem } from 'mint-ui';
 Vue.component(Swipe.name, Swipe);
@@ -18,6 +19,7 @@ export default new Router({
     {path:'/Wish',component:Wish},
     {path:'/',component:HelloContainer},
     {path:'/index',component:index},
-    {path:'/xqy',component:Xqy}
+    {path:'/xqy',component:Xqy},
+    {path:"/allhouse",component:allHouse}
   ]
 })

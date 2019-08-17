@@ -32,7 +32,7 @@ export default {
         width:325px;
         height:40px;
         margin:auto;
-        margin-bottom:8px;
+        margin-bottom:10px;
     }
     .inputPlace input{
         width:325px;
