@@ -9,6 +9,34 @@
             <div><button>位置区域</button></div>
             <div><button>筛选条件</button></div>
         </div>
+        <div>
+            <div>
+                
+            </div>
+            <div>
+                <img src="../../assets/collect.png">
+            </div>
+            <div>
+                <img src="../../assets/carousel6.jpg" alt="">
+            </div>
+            <div>
+                <span>独立房间·1室1卫1床</span>
+            </div>
+            <div>
+                <span>卓小花【初雪】城西loft公寓步行至按时发份</span>
+            </div>
+            <div>
+                <span>超赞房东</span>
+            </div>
+            <div>
+                <span>★★★★★</span><span>278条评价</span>
+            </div>
+            <div></div>
+            <div>
+                <span>￥488/晚</span>
+                <span>满7天立享9.5折</span>
+            </div>
+        </div>
     </div>
 </template>
 <script>
@@ -18,13 +46,13 @@ export default {
 </script>
 <style scoped>
 .all_house .top-input{
-    width:325px;
+    width:87%;
     height:40px;
     margin:auto;
     margin-top:20px;
 }
 .all_house .top-input input{
-    width:325px;
+    width:100%;
     height:40px;
 }
 .all_house .btn{
