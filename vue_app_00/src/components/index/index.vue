@@ -1,6 +1,6 @@
 <template>
     <div class="common">
-        <carousel></carousel>    
+        <carousel/>   
         <Title/>
         <indexHouse/>
     </div>

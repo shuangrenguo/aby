@@ -1,0 +1,31 @@
+<template>
+    <div>
+        <div class="car2">
+            <mt-swipe :auto="0">
+            <mt-swipe-item><img src="../../assets/carousel1.jpg" alt=""></mt-swipe-item>
+            <mt-swipe-item><img src="../../assets/carousel2.jpg" alt=""></mt-swipe-item>
+            <mt-swipe-item><img src="../../assets/carousel3.jpg" alt=""></mt-swipe-item>
+            <mt-swipe-item><img src="../../assets/carousel4.jpg" alt=""></mt-swipe-item>
+            <mt-swipe-item><img src="../../assets/carousel5.jpg" alt=""></mt-swipe-item>
+            </mt-swipe>
+        </div>
+    </div>
+</template>
+<script>
+export default {
+    data() {
+        return {
+            
+        }
+    },
+}
+</script>
+<style scoped>
+    .car2{
+        height:200px;
+    }
+    .car2 img{
+        width:100%;
+        height:200px;
+    }
+</style>
