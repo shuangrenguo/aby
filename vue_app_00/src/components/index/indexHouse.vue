@@ -2,44 +2,51 @@
     <div class="indexCm">
         <div class="houses">
             <!-- 第一个房源 -->
-            <div class="house">
-                <div class="imgpro">
-                    <img src="../../assets/house1.jpg">
+            <router-link class="goto" to="/minutehouse">
+                <div class="house">
+                    <div class="imgpro">
+                        <img src="../../assets/house1.jpg">
+                    </div>
+                    <div class="collect">
+                        <img src="../../assets/collect.png">    
+                    </div>
+                    <div class="title">
+                        <span>整套公寓·杭州</span>
+                    </div>
+                    <div class="subtitle">
+                        <span>【恃风舍】温馨风 市中心 长寿路、江宁路地铁口</span>
+                    </div>
+                    <div class="spice">
+                        <p><span>￥367 </span><s>￥408</s>/晚</p>
+                    </div>
+                    <div class="comment">
+                        <p><span>★★★★★</span>8 · 超赞房东</p>
+                    </div>
                 </div>
-                <div class="collect">
-                    <img src="../../assets/collect.png">    
-                </div>
-                <div class="title">
-                    <span>整套公寓·杭州</span>
-                </div>
-                <div class="subtitle">
-                    <span>【恃风舍】温馨风 市中心 长寿路、江宁路地铁口</span>
-                </div>
-                <div class="spice">
-                    <p><span>￥367 </span><s>￥408</s>/晚</p>
-                </div>
-                <div class="comment">
-                    <p><span>★★★★★</span>8 · 超赞房东</p>
-                </div>
-            </div>
+            </router-link>
             <!-- 第二个房源 -->
-            <div class="house">
-                <div class="imgpro">
-                    <img src="../../assets/house1.jpg">
+            <router-link class="goto" to="/minutehouse">
+                <div class="house">
+                    <div class="imgpro">
+                        <img src="../../assets/house1.jpg">
+                    </div>
+                    <div class="collect">
+                        <img src="../../assets/collect.png">    
+                    </div>
+                    <div class="title">
+                        <span>整套公寓·杭州</span>
+                    </div>
+                    <div class="subtitle">
+                        <span>【恃风舍】温馨风 市中心 长寿路、江宁路地铁口</span>
+                    </div>
+                    <div class="spice">
+                        <p><span>￥367 </span><s>￥408</s>/晚</p>
+                    </div>
+                    <div class="comment">
+                        <p><span>★★★★★</span>8 · 超赞房东</p>
+                    </div>
                 </div>
-                <div class="title">
-                    <span>整套公寓·杭州</span>
-                </div>
-                <div class="subtitle">
-                    <span>【恃风舍】温馨风 市中心 长寿路、江宁路地铁口</span>
-                </div>
-                <div class="spice">
-                    <p><span>￥367 </span><s>￥408</s>/晚</p>
-                </div>
-                <div class="comment">
-                    <p><span>★★★★★</span>8 · 超赞房东</p>
-                </div>
-            </div>
+            </router-link>
         </div>
         <router-link class="btn" to="/allhouse">
             <button >显示更多房源</button>
@@ -60,9 +67,14 @@ export default {
     display: flex;
     justify-content:space-around;
 }
-.house{
+.goto{
     width: 45%;
+    text-decoration:none;
+}
+.house{
+    width: 100%;
     position:relative;
+    color:black;
     
 }
 .imgpro{
