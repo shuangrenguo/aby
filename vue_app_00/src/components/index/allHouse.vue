@@ -10,7 +10,7 @@
             <div><button>筛选条件</button></div>
         </div>
         <router-link class="goto"  to="/minutehouse">
-        <div class="allhouse">
+        <div class="allhouse">` `   
             <carouselt class="allhouse_img"/>
             <div class="allhouse_head"><img src="../../assets/carousel3.jpg" alt=""></div>
             <div class="allhouse_collection">
